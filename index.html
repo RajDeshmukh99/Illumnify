@@ -104,7 +104,7 @@
     <!-- <div class="overlay">
       <footer class="footer"></footer>
     </div> -->
-    <div style="background-color: #ffffff;">
+    <div style=" height:100% ;background-color: #ffffff;">
       <div class="row">
         <div>&nbsp;</div>
         <h3 class="about_heading center">About Us</h3>
@@ -123,12 +123,12 @@
 
       <div>&nbsp;</div>
       <div>&nbsp;</div>
+      <footer class="footer">
+        <div class="right footer_content ">Follow Us:</div>
+        <div class="left footer_content ">Contact Us: 12345678901</div>
+        <div class="center footer_content ">Email: abc@abc.com</div>
+      </footer>
     </div>
-    <footer class="footer">
-      <div class="footer_content">
-        Contact Us: 1234567890 <br />Email Id: abc@abc.com <br />Copyright2019
-      </div>
-    </footer>
 
     <div class="button_container" id="toggle">
       <span class="top"></span>
@@ -165,6 +165,11 @@
 
     <script src="js/index.js"></script>
 
-    <script></script>
+    <script>
+      $("#toggle").click(function() {
+        $(this).toggleClass("active");
+        $("#overlay").toggleClass("open");
+      });
+    </script>
   </body>
 </html>
