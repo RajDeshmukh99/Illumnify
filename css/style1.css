@@ -80,3 +80,11 @@ body {
   color: #00e0ff;
   font-weight: bolder;
 }
+.footer_row {
+  text-align: center !important;
+}
+@media (max-width: 600px) {
+  .footer_row {
+    text-align: left !important;
+  }
+}
