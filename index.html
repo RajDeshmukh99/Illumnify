@@ -33,6 +33,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -49,7 +50,7 @@
       <div class="row center">
         <h3 class="heading">Products</h3>
       </div>
-      <div class="row">
+      <div class="row" data-aos="fade-right" data-aos-duration="900">
         <div class="pro_head col s12 l4 offset-l2">
           THEIA
           <p class="pro_content">
@@ -66,7 +67,7 @@
       <div>&nbsp;</div>
       <div>&nbsp;</div>
 
-      <div class="row">
+      <div class="row" data-aos="fade-left" data-aos-duration="900">
         <div class="col s12 l4 offset-l2"><img src="" /></div>
         <div class="pro_head col s12 l4">
           ATHENA
@@ -83,7 +84,7 @@
       <div>&nbsp;</div>
       <div>&nbsp;</div>
 
-      <div class="row">
+      <div class="row" data-aos="fade-right" data-aos-duration="900">
         <div class="pro_head col s12 l4 offset-l2">
           KERES
           <p class="pro_content">
@@ -108,7 +109,12 @@
       <div class="row">
         <div>&nbsp;</div>
         <h3 class="about_heading center">About Us</h3>
-        <p class="about_content">
+        <p
+          class="about_content"
+          data-aos="fade-up"
+          data-aos-duration="900"
+          data-aos-anchor-placement="bottom-bottom"
+        >
           Hello,<br />How often are we willing to go that extra mile to make the
           world a better place? Well, at Illuminify that is just what we strive
           for. We aim to develop revolutionary products for making our lives
@@ -123,7 +129,12 @@
 
       <div>&nbsp;</div>
       <div>&nbsp;</div>
-      <footer class="footer">
+      <footer
+        class="footer"
+        data-aos="fade-up"
+        data-aos-duration="900"
+        data-aos-anchor-placement="bottom-bottom"
+      >
         <div class="row footer_row">
           <div class="col s12 l4 footer_content ">Contact Us: 12345678901</div>
           <div class="col s12 l4 footer_content ">Email: abc@abc.com</div>
@@ -181,7 +192,10 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <script></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
