@@ -76,3 +76,7 @@ body {
 #products {
   transition: 3s;
 }
+.color1 {
+  color: #00e0ff;
+  font-weight: bolder;
+}
