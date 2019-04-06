@@ -73,7 +73,6 @@ body {
     height: 12%;
   }
 }
-li {
-  font-size: 40px !important;
-  font-family: "Montserrat";
+#products {
+  transition: 3s;
 }
