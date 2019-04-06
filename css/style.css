@@ -1,0 +1,76 @@
+body {
+  height: 100%;
+}
+.heading {
+  color: #ffffff;
+  font-family: "Montserrat";
+}
+.pro_head {
+  color: #000aff;
+  font-size: 18px;
+}
+.pro_content {
+  color: #aaaac9;
+  font-size: 16px;
+}
+.logo {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.overlay {
+  /* The image used */
+  background-image: url("LandingPageBG.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.vertical_center {
+  margin: 0;
+  position: absolute;
+  top: 300%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+footer {
+  height: 20%;
+  /* bottom: 80%; */
+  background-color: #02002a;
+}
+.about_heading {
+  color: #02002a;
+}
+.about_content {
+  justify-content: left;
+  padding: 5%;
+  font-weight: bold;
+  background-color: #000aff;
+  color: #ffffff;
+  margin: auto;
+  width: 650px;
+  /* margin: auto; */
+  border-radius: 15px;
+}
+.footer_content {
+  color: #aaaac9;
+  font-size: 16px;
+  padding: 2%;
+}
+@media (max-width: 750px) {
+  .about_content {
+    width: 95%;
+  }
+}
+@media (max-width: 400px) {
+  footer {
+    height: 12%;
+  }
+}
