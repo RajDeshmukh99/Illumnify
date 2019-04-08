@@ -9,7 +9,7 @@ nav {
   height: 27px;
   width: 35px;
   cursor: pointer;
-  z-index: 100;
+  z-index: 1000;
   transition: opacity 0.25s ease;
 }
 .button_container:hover {
