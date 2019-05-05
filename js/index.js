@@ -2,6 +2,10 @@ $('#toggle').click(function() {
    $(this).toggleClass('active');
    $('#overlay').toggleClass('open');
   });
+  
+$( '.menu li a' ).on("click", function(){
+  $('#toggle').click();
+});
 
  /* $(window).on("load",function()
      {
@@ -27,10 +31,10 @@ $('#toggle').click(function() {
      });*/
 
     
-     $(window).scroll(function() {
+     /*$(window).scroll(function() {
       if ($(this).scrollTop() > 250 && $(this).scrollTop() < 1250) {
         $(".new").fade(500);
       } else {
         $(".new").fadeOut(500);
       }
-    });
+    });*/
