@@ -10,6 +10,7 @@ body {
 .pro_head {
   color: #000aff;
   font-size: 18px;
+  padding-top: 5% !important;
 }
 .pro_content {
   color: #aaaac9;
