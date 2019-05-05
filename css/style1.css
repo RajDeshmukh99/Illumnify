@@ -91,3 +91,11 @@ body {
     text-align: left !important;
   }
 }
+/* new changes */
+.pro_image img{
+  width: 100% !important;
+}
+#about{
+  padding-top: 5%;
+  height: 100%;
+}

@@ -7,7 +7,7 @@ nav {
   top: 5%;
   right: 2%;
   height: 27px;
-  width: 35px;
+  width: 30px;
   cursor: pointer;
   z-index: 1000;
   transition: opacity 0.25s ease;
@@ -16,8 +16,8 @@ nav {
   opacity: 0.7;
 }
 .button_container.active .top {
-  -webkit-transform: translateY(11px) translateX(0) rotate(45deg);
-  transform: translateY(11px) translateX(0) rotate(45deg);
+  -webkit-transform: translateY(9px) translateX(0) rotate(45deg);
+  transform: translateY(9px) translateX(0) rotate(45deg);
   background: #fff;
 }
 .button_container.active .middle {
@@ -25,8 +25,8 @@ nav {
   background: #fff;
 }
 .button_container.active .bottom {
-  -webkit-transform: translateY(-11px) translateX(0) rotate(-45deg);
-  transform: translateY(-11px) translateX(0) rotate(-45deg);
+  -webkit-transform: translateY(-9px) translateX(0) rotate(-45deg);
+  transform: translateY(-9px) translateX(0) rotate(-45deg);
   background: #fff;
 }
 .button_container span {
@@ -34,7 +34,7 @@ nav {
 
   background: #aaaac9;
   border: none;
-  height: 5px;
+  height: 2px;
   width: 100%;
   position: absolute;
   top: 0;
@@ -43,10 +43,10 @@ nav {
   cursor: pointer;
 }
 .button_container span:nth-of-type(2) {
-  top: 11px;
+  top: 9px;
 }
 .button_container span:nth-of-type(3) {
-  top: 22px;
+  top: 18px;
 }
 
 .overlay {
