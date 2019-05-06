@@ -104,3 +104,15 @@ body {
 .wow {
   visibility: hidden;
 }
+@media (max-width: 1024px) {
+  #athena {
+    display: flex;
+    flex-direction: column;
+  }
+  #athena_image {
+    order: 2;
+  }
+  #athena_text {
+    order: 1;
+  }
+}
