@@ -17,6 +17,18 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"/>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"/>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css"
+    rel="stylesheet"
+    />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    rel="stylesheet"
+    />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -56,10 +68,10 @@
     <div id="products" style="background-color:#02002a;">
       <div>&nbsp;</div>
       <div class="row center">
-        <h3 data-aos="zoom-in" data-aos-duration="1000" class="heading" >Products</h3>
+        <h3 data-aos="zoom-in" data-aos-duration="1000" class="heading">Products</h3>
       </div>
       <div class="row">
-        <div data-aos="fade-right" data-aos-duration="1000" class="pro_head col s12 l4 offset-l2" >
+        <div class="pro_head col s12 l4 offset-l2 wow fadeInLeftBig" data-wow-duration="2s" data-wow-offset="1500">
           THEIA
           <p class="pro_content">
             <span style="font-style: italic;"
@@ -70,17 +82,17 @@
           </p>
         </div>
 
-        <div class="col s12 l4 pro_image">
-		<img data-aos="fade-left" data-aos-duration="1000" src="images/img.jpg" /></div>
+        <div class="col s12 l4 pro_image wow fadeInRightBig" data-wow-duration="2s" data-wow-offset="1500">
+		<img src="images/img.jpg" /></div>
       </div>
 
       <div>&nbsp;</div>
       <div>&nbsp;</div>
 
       <div class="row">
-        <div class="col s12 l4 offset-l2 pro_image">
-		<img data-aos="fade-right" data-aos-duration="1000" src="images/img.jpg" /></div>
-        <div data-aos="fade-left" data-aos-duration="1000" class="pro_head col s12 l4">
+        <div class="col s12 l4 offset-l2 pro_image wow fadeInLeftBig" data-wow-duration="2s" data-wow-offset="1700">
+		<img src="images/img.jpg" /></div>
+        <div class="pro_head col s12 l4 wow fadeInRightBig" data-wow-duration="2s" data-wow-offset="1700">
           ATHENA
           <p class="pro_content">
             <span  style="font-style: italic;"
@@ -96,7 +108,7 @@
       <div>&nbsp;</div>
 
       <div class="row">
-        <div data-aos="fade-right" data-aos-duration="1000" class="pro_head col s12 l4 offset-l2">
+        <div class="pro_head col s12 l4 offset-l2 wow fadeInLeftBig" data-wow-duration="2s" data-wow-offset="1600">
           KERES
           <p class="pro_content">
             <span style="font-style: italic;"
@@ -106,8 +118,8 @@
             sense of their surroundings.
           </p>
         </div>
-        <div class="col s12 l4 pro_image">
-		<img data-aos="fade-left" data-aos-duration="1000" src="images/img.jpg" /></div>
+        <div class="col s12 l4 pro_image wow fadeInRightBig" data-wow-duration="2s" data-wow-offset="1600">
+		<img src="images/img.jpg" /></div>
       </div>
 
       <div>&nbsp;</div>
@@ -197,5 +209,10 @@
     <script>
       AOS.init();
     </script>
+
+<script>
+  new WOW().init();
+</script>
+
   </body>
 </html>

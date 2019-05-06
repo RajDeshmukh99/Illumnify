@@ -7,6 +7,14 @@ $( '.menu li a' ).on("click", function(){
   $('#toggle').click();
 });
 
+window.addEventListener('scroll', function(e) {
+  if( $(window).scrollTop() <= 50) {
+      $('.wow').removeClass('animated');
+      $('.wow').removeAttr('style');
+      new WOW().init();
+  }
+});
+
  /* $(window).on("load",function()
      {
        $(window).scroll(function()
