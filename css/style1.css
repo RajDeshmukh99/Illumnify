@@ -19,10 +19,42 @@ body {
 .logo {
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/*added*/
+
+.logo_text {
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.arr {
+  margin: 0;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn1 {
+  background:none;
+  border:none;
+  margin:0;
+  padding:0;
+  cursor: pointer;
+}
+
+/* On mouse-over */
+.btn1:hover {background: #eee;}
+
+.default {color: black;}
+
 .overlay1 {
   /* The image used */
   background-image: url("LandingPageBG.jpg");
