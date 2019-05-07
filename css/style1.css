@@ -83,8 +83,8 @@ body {
   justify-content: left;
   padding: 5%;
   font-weight: bold;
-  background-color: #0600ff;
-  color: #ffffff;
+  background-color: #A3BBAD;
+  color: #504e4e;
   margin: auto;
   width: 650px;
   /* margin: auto; */
@@ -95,7 +95,7 @@ body {
   bottom: 0;
 }
 .footer_content {
-  color: #aaaac9;
+  color: rgb(65, 66, 66);
   font-size: 16px;
   padding: 2%;
 }
@@ -147,4 +147,7 @@ body {
   #athena_text {
     order: 1;
   }
+}
+#hello {
+  color: #fc8e11;
 }
