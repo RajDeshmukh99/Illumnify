@@ -23,7 +23,6 @@ body {
   top: 37%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding-bottom: 6%;
 }
 
 /*added*/
@@ -372,4 +371,12 @@ input[type=text], select, textarea {
 
   background-color: #02002a;
   z-index: -1;
+}
+
+@media (max-width: 1024px) {
+
+  .logo{
+    padding-bottom: 5% !important; 
+  }
+
 }
