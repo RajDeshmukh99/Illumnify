@@ -372,13 +372,3 @@ input[type=text], select, textarea {
   background-color: #02002a;
   z-index: -1;
 }
-
-@media (max-width: 1024px) {
-
-  .logo{
-    padding-bottom: 15% !important; 
-  }
-  .logo_text {
-    padding-top: 5% !important; 
-  }
-}
