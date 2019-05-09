@@ -376,7 +376,7 @@ input[type=text], select, textarea {
 @media (max-width: 1024px) {
 
   .logo{
-    padding-bottom: 5% !important; 
+    padding-bottom: 15% !important; 
   }
   .logo_text {
     padding-top: 5% !important; 
