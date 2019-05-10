@@ -354,16 +354,14 @@ input[type=text], select, textarea {
 }
 #change_here {
   font-family: Futura, Trebuchet MS, Arial, sans-serif; 
-  color: #2C3539; 
+  color: rgb(85, 85, 85); 
   font-size:35px; 
   font-style: italic;
 }
 @media (max-width: 768px) {
   #change_here {
-  font-family: Futura, Trebuchet MS, Arial, sans-serif; 
-  color: #2C3539; 
   font-size:27px; 
-  font-style: italic;
+  margin-top: 7%;
   }
 }
 
@@ -371,4 +369,14 @@ input[type=text], select, textarea {
 
   background-color: #02002a;
   z-index: -1;
+}
+
+@media(max-width: 768px) {
+  .logo_text {
+    margin: 0;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
