@@ -22,7 +22,6 @@ window.addEventListener("scroll", function(e) {
 
 $(document).ready(function() {
   $(".parallax").parallax();
-  console.log(" jjsdbjsjdbfkjb");
   $("a.scrollLink").click(function(event) {
     event.preventDefault();
     $("html, body").animate(
@@ -30,4 +29,9 @@ $(document).ready(function() {
       500
     );
   });
+  $(".fluid-container").css("overflow-y", "hidden");
+
+  $("#loader")
+    .delay(1500)
+    .fadeOut();
 });
