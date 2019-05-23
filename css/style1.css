@@ -198,6 +198,28 @@ body {
     margin-left: 0;
   }
 }
+#grant_heading {
+  color: black;
+  background-color: #f0f0f0;
+  height: 25vh;
+  writing-mode: horizontal-lr;
+  text-orientation: sideways-right;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+#grant
+{ transform: none;
+  padding: 2% 0 0 0;
+}
+
+#grant_logo
+{
+  padding: 10%;
+}
+
+.g_logo
+{padding: 10%;}
 @media (max-width: 768px) {
   /* #about_heading {
     color: #ffffff;
@@ -366,7 +388,7 @@ input[type=text], select, textarea {
 }
 #change_here {
   font-family: Futura, Trebuchet MS, Arial, sans-serif;
-  color: rgb(189, 188, 188);
+  color: #ffffff;
   font-size: 35px;
   font-style: italic;
 }
