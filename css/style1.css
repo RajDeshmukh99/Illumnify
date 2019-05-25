@@ -168,9 +168,9 @@ body {
 /* about changes */
 
 #about_heading {
-  color: black;
-  background-color: #f0f0f0;
-  height: 100vh;
+  color: white;
+  background-color: #02002a;
+  height: 100%;
   float: left;
   writing-mode: vertical-lr;
   text-orientation: sideways-right;
@@ -199,27 +199,35 @@ body {
   }
 }
 #grant_heading {
-  color: black;
-  background-color: #f0f0f0;
+  color: white;
+  background-color: #02002a;
   height: 25vh;
   writing-mode: horizontal-lr;
   text-orientation: sideways-right;
   font-family: "Montserrat";
   text-align: center;
 }
-
 #grant
 { transform: none;
   padding: 2% 0 0 0;
 }
-
-#grant_logo
-{
-  padding: 10%;
+#grants_aff{
+  height: 100%;
 }
-
-.g_logo
-{padding: 10%;}
+.test{
+  margin-bottom: 0 !important;
+}
+@media(max-width: 768px){
+  .g_logo{
+    margin-top: 12%;
+  }
+}
+@media(min-width: 1024px){
+  .g_logo{
+    margin-top: 12%;
+    margin-bottom: 12%;
+  }
+}
 @media (max-width: 768px) {
   /* #about_heading {
     color: #ffffff;
@@ -541,6 +549,7 @@ section {
 #about {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 #about .row {
   /* padding:  0 0 0; */
