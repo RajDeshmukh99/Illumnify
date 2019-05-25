@@ -213,6 +213,7 @@ body {
 }
 #grants_aff{
   height: 100%;
+  margin-top: 1%;
 }
 .test{
   margin-bottom: 0 !important;
@@ -550,6 +551,7 @@ section {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
+  margin-top: 1%;
 }
 #about .row {
   /* padding:  0 0 0; */
