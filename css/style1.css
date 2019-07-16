@@ -27,7 +27,7 @@ body {
 .logo_text {
   margin: 0;
   font-family: Futura, Trebuchet MS, Arial, sans-serif;
-  color: #fe9214;
+  color:#ffffff;
   
 }
 
@@ -163,7 +163,7 @@ body {
   }
 }
 #hello {
-  color: #fc8e11;
+  color: #000aff;
 }
 /* about changes */
 
@@ -397,7 +397,7 @@ input[type=text], select, textarea {
 }
 #change_here {
   font-family: Futura, Trebuchet MS, Arial, sans-serif;
-  color: #ffffff;
+  color: #e4e4f7;
   font-size: 35px;
   font-style: italic;
 }
@@ -585,4 +585,7 @@ section {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+#home{
+  background-color: #070707;
 }
