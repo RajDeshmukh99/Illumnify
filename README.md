@@ -1,3 +1,3 @@
 # Illumnify
 
-Official Website
+Official Website for the startup at VIT, Illumnify
